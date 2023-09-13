@@ -75,7 +75,7 @@ body {
 
 .first-section-content {
     margin-top: 5%;
-    margin-left: 17%;
+    margin-left: 12%;
     margin-right: 5%;
     display: flex;
     justify-content: space-around;
@@ -87,6 +87,7 @@ body {
     color: #303030;
     font-size: 48px;
     font-weight: 700;
+    width: 85%;
 }
 
 .first-section-content p {
@@ -136,6 +137,83 @@ body {
     text-align: center;
 }
 
-.clients figure{
+.clients figure {
     margin-top: 2%;
+}
+
+/* Features section */
+.features {
+    padding-top: 4%;
+    padding-bottom: 4%;
+    background-color: #FAFAFA;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.feature-content {
+    margin-left: 23%;
+}
+
+.feature-content a {
+    text-decoration: none;
+    color: #0086D5;
+}
+
+.feature-content h1 {
+    color: #303030;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.feature-content p {
+    color: #303030;
+    font-size: 16px;
+    width: 65%;
+}
+
+.feature-content button {
+    padding: 1.5% 4%;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 13%;
+}
+
+.feature-card-group-1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-card-group-2 {
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+.feature-card {
+    border: solid 1px #707070;
+    border-radius: 25px;
+    margin: 5%;
+    width: 12vw;
+    height: 10vw;
+    padding: 8%;
+}
+
+.feature-card figure {
+    margin: 0;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+.feature-card h1 {
+    color: #303030;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.feature-card p {
+    color: #696969;
+    font-size: 11px;
 }
