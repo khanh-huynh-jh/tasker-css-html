@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
-*{
+* {
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -8,14 +8,21 @@
     line-height: normal;
 }
 
+body {
+    margin: 0;
+}
+
+/* First Secion */
+
 /* Nav Bar */
 .nav {
-    margin: auto 5%;
+    margin: auto 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.nav a{
+
+.nav a {
     text-decoration: none;
     color: #707070;
 }
@@ -53,11 +60,82 @@
     width: 8vw;
 }
 
-.btn{
+.btn {
     background-color: #0086D5;
     color: white;
     border: none;
     border-radius: 5px;
 }
 
-/* First section */
+.first-section {
+    background-color: #FAFAFA;
+}
+
+/* First section content */
+
+.first-section-content {
+    margin-top: 5%;
+    margin-left: 17%;
+    margin-right: 5%;
+    display: flex;
+    justify-content: space-around;
+    gap: 17%
+}
+
+
+.first-section-content h1 {
+    color: #303030;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.first-section-content p {
+    color: #707070;
+    font-size: 20px;
+}
+
+.sign-up-form {
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    gap: 2%
+}
+
+.sign-up-form input {
+    flex: 7;
+    border-radius: 5px;
+    border: solid 1px #A5A5A5;
+    padding: 3%;
+}
+
+.sign-up-form button {
+    flex: 3;
+    padding: 2%;
+    font-weight: 400;
+}
+
+/* Clients */
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients h1 {
+    color: #303030;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.clients p {
+    color: #303030;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto 20%;
+    text-align: center;
+}
+
+.clients figure{
+    margin-top: 2%;
+}
