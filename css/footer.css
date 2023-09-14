@@ -1,0 +1,27 @@
+/* Footer */
+footer>div {
+    margin: 5% 15%;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: 32% 16% 16% 16% 16%;
+    color: #464646;
+}
+
+footer h1 {
+    color: #303030;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.social-media {
+    display: flex;
+    gap: 1.25rem;
+    margin-top: 2rem;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 0;
+}

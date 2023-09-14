@@ -1,0 +1,88 @@
+/* First Secion */
+
+/* Nav Bar */
+
+.nav {
+    margin: auto 15%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #707070;
+}
+
+.nav-section-1{
+    display: flex;
+    align-items: center;
+    gap: 2rem
+}
+
+.nav-section-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    gap: 2rem;
+}
+
+.nav-btn {
+    padding: 0.5rem 1.5rem;
+}
+
+.first-section {
+    background-color: #FAFAFA;
+}
+
+/* First section content */
+
+.first-section-content {
+    margin: 5% 15%;
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.first-section-content img{
+    width: 32vw;
+}
+
+
+.first-section-content h1 {
+    color: #303030;
+    font-size: 48px;
+    font-weight: 700;
+    width: 85%;
+}
+
+.first-section-content p {
+    color: #707070;
+    font-size: 20px;
+}
+
+.sign-up-form {
+    display: flex;
+    height: 10%;
+    justify-content: space-between;
+    gap: 2%
+}
+
+.sign-up-form input {
+    flex: 7;
+    border-radius: 5px;
+    border: solid 1px #A5A5A5;
+    padding: 3%;
+}
+
+.sign-up-form button {
+    flex: 3;
+    padding: 2%;
+    font-weight: 400;
+}
+
+#dropdown{
+    display: none;
+}
+

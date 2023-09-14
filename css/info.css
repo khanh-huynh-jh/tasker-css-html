@@ -1,0 +1,33 @@
+/* Info section */
+.info-section {
+    gap: 10%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 5% 20%;
+    padding-bottom: 5%;
+}
+
+.info-section .sub-section h1 {
+    color: #303030;
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.info-section figure {
+    margin: 0;
+}
+
+.info-section .sub-section p:first-of-type {
+    color: #0086D5;
+}
+
+.info-section .sub-section p:last-of-type {
+    color: #303030;
+    font-size: 16px;
+}
+
+.info-section button {
+    margin-top: 5%;
+}

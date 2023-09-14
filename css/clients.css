@@ -1,0 +1,25 @@
+/* Clients */
+.clients {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.clients h1 {
+    color: #303030;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.clients p {
+    color: #303030;
+    font-size: 16px;
+    font-weight: 400;
+    margin: auto 20%;
+    text-align: center;
+}
+
+.clients figure {
+    margin-top: 2%;
+}
