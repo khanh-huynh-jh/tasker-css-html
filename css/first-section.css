@@ -134,14 +134,17 @@
         width: 100%;
     }
 
+    .first-section-content p {
+        font-size: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width: 1281px) {
 
     .first-section-content h1 {
         font-size: 2.5rem;
         width: auto;
-    }
-
-    .first-section-content p {
-        font-size: 1.25rem;
     }
 
 }

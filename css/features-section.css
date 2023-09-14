@@ -120,3 +120,20 @@
     }
 
 }
+
+@media screen and (min-width: 821px) and (max-width: 1281px) {
+
+    .feature-card {
+        height: 15vw;
+        padding: 8%;
+    }
+
+}
+
+@media screen and (min-width: 1281px) and (max-width: 1426px) {
+
+    .feature-card {
+        height: 15vw;
+    }
+
+}
