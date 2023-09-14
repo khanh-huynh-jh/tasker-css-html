@@ -55,8 +55,29 @@
 .subcribtion-section input {
     border: none;
     background-color: #0086D5;
+    color: white;
+    padding-left: 1rem;
+}
+
+.subcribtion-section input:focus {
+    outline: none;
 }
 
 .subcribtion-section input::placeholder {
     color: white;
+}
+
+@media screen and (max-width: 821px) {
+
+    .subcribtion-section {
+        background-image: none;
+        margin: 5%;
+        padding: 7%;
+    }
+
+    .subcribtion-section h1 {
+        margin: 0.25rem;
+        font-size: 36px;
+        font-weight: 700;
+    }
 }

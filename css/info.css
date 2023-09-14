@@ -31,3 +31,27 @@
 .info-section button {
     margin-top: 5%;
 }
+
+@media screen and (max-width: 821px) {
+
+    /* Info section */
+    .info-section {
+        display: block;
+        margin: 5% 2%;
+        padding-bottom: 5%;
+    }
+
+    .info-section .sub-section h1 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .info-section img{
+        width: 100vw;
+    }
+
+    .info-section .sub-section p:last-of-type {
+        font-size: 1rem;
+    }
+
+}

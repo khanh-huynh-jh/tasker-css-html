@@ -25,3 +25,29 @@ footer h1 {
     text-align: center;
     margin: 0;
 }
+
+@media screen and (max-width: 821px) {
+
+    /* Footer */
+    footer{
+        text-align: center;
+    }
+    footer>div {
+        margin: 5% 15%;
+        display: block;
+    }
+
+    footer h1 {
+        font-size: 1.25rem;
+    }
+
+    footer p{
+        font-size: 0.75rem;
+    }
+
+    .social-media {
+        display: block;
+        margin-top: 1rem;
+    }
+
+}

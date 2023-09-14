@@ -23,3 +23,23 @@
 .clients figure {
     margin-top: 2%;
 }
+
+@media screen and (max-width: 821px) {
+    .clients h1 {
+        font-size: 2rem;
+    }
+
+    .clients p {
+        font-size: 1rem;
+        margin: auto 0%;
+    }
+
+    .clients figure {
+        margin-top: 2rem;
+    }
+
+    .clients img{
+        width: 100%;
+    }
+
+}

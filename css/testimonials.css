@@ -76,3 +76,29 @@
     background-color: #0086D5;
     border-color: black;
 }
+
+@media screen and (max-width: 821px) {
+
+    .testimonials>div {
+        margin: 5% 2%;
+        text-align: center;
+    }
+
+    .testimonials h1 {
+        font-size: 2rem;
+        margin: 5% 3%;
+    }
+
+    .testimonials-slide-show {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 5%;
+    }
+
+
+    .avatar {
+        margin-top: 1rem;
+    }
+
+}
