@@ -13,7 +13,7 @@
 }
 
 .testimonials>div>p {
-    color: #0086D5;
+    color: var(--blue);
 }
 
 .testimonials h1 {
@@ -73,7 +73,7 @@
 }
 
 .current-page {
-    background-color: #0086D5;
+    background-color: var(--blue);
     border-color: black;
 }
 

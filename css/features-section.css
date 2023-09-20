@@ -4,24 +4,13 @@
     background-color: #FAFAFA;
 }
 
-.features>div {
-    margin: 5% 15%;
-    padding-top: 4%;
-    padding-bottom: 4%;
-
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .feature-content {
     width: auto;
 }
 
 .feature-content a {
     text-decoration: none;
-    color: #0086D5;
+    color: var(--blue);
 }
 
 .feature-content h1 {
@@ -59,7 +48,7 @@
     border: solid 1px #707070;
     border-radius: 25px;
     margin: 5%;
-    height: 10vw;
+    height: 200px;
     padding: 8%;
 }
 

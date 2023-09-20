@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 
+:root{
+    --blue: #0086D5;
+    
+}
+
 * {
     font-family: Poppins;
     font-size: 14px;
@@ -17,8 +22,19 @@ body {
 }
 
 .btn {
-    background-color: #0086D5;
-    color: white;
+    background-color: var(--blue);
+    color: white;   
     border: none;
     border-radius: 5px;
+}
+
+.basic-layout {
+    gap: 5%;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px auto;
+    padding-bottom: 50px;
+    max-width: 1300px;
 }

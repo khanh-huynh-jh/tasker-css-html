@@ -1,12 +1,6 @@
 /* Info section */
 .info-section {
-    gap: 10%;
-    display: grid;
-    grid-template-columns: auto auto;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 5% 20%;
-    padding-bottom: 5%;
+    padding-bottom: 50px;
 }
 
 .info-section .sub-section h1 {
@@ -20,7 +14,7 @@
 }
 
 .info-section .sub-section p:first-of-type {
-    color: #0086D5;
+    color: var(--blue);
 }
 
 .info-section .sub-section p:last-of-type {
@@ -46,7 +40,7 @@
         font-weight: 700;
     }
 
-    .info-section img{
+    .info-section img {
         width: 100vw;
     }
 

@@ -1,12 +1,13 @@
 /* FAQ */
 
 .faq-section {
-    margin: 5% 15%;
+    margin: 100px auto;
+    max-width: 1300px;
     text-align: center;
 }
 
 .faq-section>p {
-    color: #0086D5;
+    color: var(--blue);
 }
 
 .faq-section>h1 {
@@ -70,7 +71,7 @@
     }
     
     .faq-section>p {
-        color: #0086D5;
+        color: var(--blue);
     }
     
     .faq-section>h1 {

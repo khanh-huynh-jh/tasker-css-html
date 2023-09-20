@@ -3,7 +3,8 @@
 /* Nav Bar */
 
 .nav {
-    margin: auto 15%;
+    margin: auto;
+    max-width: 1300px;
     display: flex;
     justify-content: space-between;
     padding-top: 2rem;
@@ -37,13 +38,6 @@
 }
 
 /* First section content */
-
-.first-section-content {
-    margin: 5% 15%;
-    display: flex;
-    justify-content: space-around;
-    gap: 1rem;
-}
 
 .first-section-content img {
     width: 32vw;
